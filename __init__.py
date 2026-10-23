@@ -6,8 +6,8 @@ import traceback
 from typing import Callable
 
 from . import fix
+from . import upscalers
 from .logger import log
-import upscalers
 from .util import check_verb_requirements
 from .utilities import (
     setup_frame_rate,
